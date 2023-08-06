@@ -1,0 +1,7 @@
+[ 2023-08-05 23:00:41,888 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-05 23:00:41,888 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-05 23:00:53,102 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 23:00:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-05 23:00:53,383 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 23:00:53] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-05 23:01:04,646 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 23:01:04] "GET /predictdata?VALIDITY=660&DATA_PER_DAY=&ADDITIONAL_DATA=&SMS_PER_DAY=&ADDITIONAL_SMS=&DISNEY_HOTSTAR=&COST_PER_DAY= HTTP/1.1" 200 -
+[ 2023-08-05 23:01:04,828 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 23:01:04] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -

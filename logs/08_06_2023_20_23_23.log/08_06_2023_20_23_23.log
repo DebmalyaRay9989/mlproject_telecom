@@ -1,0 +1,10 @@
+[ 2023-08-06 20:23:23,240 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-06 20:23:23,241 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-06 20:23:28,117 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:23:28] "GET / HTTP/1.1" 200 -
+[ 2023-08-06 20:23:32,474 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:23:32] "GET /join HTTP/1.1" 200 -
+[ 2023-08-06 20:23:55,145 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:23:55] "POST /join HTTP/1.1" 200 -
+[ 2023-08-06 20:23:57,368 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:23:57] "GET /participants HTTP/1.1" 200 -
+[ 2023-08-06 20:24:15,050 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:24:15] "GET /join HTTP/1.1" 200 -
+[ 2023-08-06 20:24:21,030 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:24:21] "GET /participants HTTP/1.1" 200 -
+[ 2023-08-06 20:32:03,265 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:32:03] "GET / HTTP/1.1" 200 -

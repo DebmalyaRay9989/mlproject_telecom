@@ -1,0 +1,5 @@
+[ 2023-08-05 20:35:36,833 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-05 20:35:36,834 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-05 20:35:45,799 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 20:35:45] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-05 20:36:17,640 ] 225 werkzeug - INFO - 127.0.0.1 - - [05/Aug/2023 20:36:17] "GET /predictdata HTTP/1.1" 200 -

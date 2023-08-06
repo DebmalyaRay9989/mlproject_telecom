@@ -1,0 +1,7 @@
+[ 2023-08-06 20:36:31,703 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-06 20:36:31,703 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-06 20:36:40,683 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:36:40] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-06 20:36:40,691 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:36:40] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 20:36:56,074 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:36:56] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-06 20:36:56,114 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:36:56] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -

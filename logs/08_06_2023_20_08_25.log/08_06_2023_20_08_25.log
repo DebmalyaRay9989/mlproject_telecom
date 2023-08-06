@@ -1,0 +1,97 @@
+[ 2023-08-06 20:08:26,895 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-06 20:08:26,895 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-06 20:08:29,864 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:08:29] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-06 20:08:29,889 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:08:29] "[33mGET /css/materialize.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 20:08:34,581 ] 1458 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 19, in index
+    return render_template('index.html')
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 150, in render_template
+    ctx.app,
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\ML_OOP\mlproject_telecom\mlproject_telecom\templates\index.html", line 8, in top-level template code
+    <button class="btn" type="button" onclick="window.location.href='{{ url_for('join') }}';">Fill form to get updates</button><br/>
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 326, in url_for
+    endpoint, values, method=method, force_external=external
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\werkzeug\routing.py", line 2315, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'join'. Did you mean 'index' instead?
+[ 2023-08-06 20:08:34,939 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:08:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-06 20:09:01,735 ] 1458 app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 19, in index
+    return render_template('index.html')
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 150, in render_template
+    ctx.app,
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\ML_OOP\mlproject_telecom\mlproject_telecom\templates\index.html", line 8, in top-level template code
+    <button class="btn" type="button" onclick="window.location.href='{{ url_for('join') }}';">Fill form to get updates</button><br/>
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 326, in url_for
+    endpoint, values, method=method, force_external=external
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\werkzeug\routing.py", line 2315, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'join'. Did you mean 'index' instead?
+[ 2023-08-06 20:09:01,737 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:09:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-06 20:09:32,002 ] 1458 app - ERROR - Exception on /home [GET]
+Traceback (most recent call last):
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 19, in index
+    return render_template('index.html')
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 150, in render_template
+    ctx.app,
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\ML_OOP\mlproject_telecom\mlproject_telecom\templates\index.html", line 8, in top-level template code
+    <button class="btn" type="button" onclick="window.location.href='{{ url_for('join') }}';">Fill form to get updates</button><br/>
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 338, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\helpers.py", line 326, in url_for
+    endpoint, values, method=method, force_external=external
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\werkzeug\routing.py", line 2315, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'join'. Did you mean 'index' instead?
+[ 2023-08-06 20:09:32,004 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:09:32] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+[ 2023-08-06 20:10:16,079 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:10:16] "[33mGET /join HTTP/1.1[0m" 404 -
+[ 2023-08-06 20:10:19,558 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 20:10:19] "[33mGET /join HTTP/1.1[0m" 404 -

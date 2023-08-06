@@ -1,0 +1,156 @@
+[ 2023-08-06 18:59:01,588 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2023-08-06 18:59:01,589 ] 225 werkzeug - INFO -  * Running on http://192.168.1.4:9090/ (Press CTRL+C to quit)
+[ 2023-08-06 18:59:13,544 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "GET / HTTP/1.1" 200 -
+[ 2023-08-06 18:59:13,685 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,685 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,685 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,731 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,901 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,901 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,901 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,970 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,970 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,986 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:13,986 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,986 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:13,986 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:13] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:14,033 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:14] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:14,055 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:14] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:14,059 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:14] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:14,125 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:14] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:15,368 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:15] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:15,368 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:15] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,660 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "GET /login/ HTTP/1.1" 200 -
+[ 2023-08-06 18:59:20,722 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,728 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,734 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,735 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,739 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,744 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,749 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,753 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,756 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,769 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:20,770 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,776 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,784 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,787 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,792 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,800 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,803 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,808 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:20,812 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:20] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,756 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "GET /register/ HTTP/1.1" 200 -
+[ 2023-08-06 18:59:26,818 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,824 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,832 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,836 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,844 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,845 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,848 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,853 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,858 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,870 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,872 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:26,877 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,887 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,916 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,927 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,929 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,932 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,936 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:26,941 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:26] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,175 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[32mPOST /register HTTP/1.1[0m" 308 -
+[ 2023-08-06 18:59:36,305 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "POST /register/ HTTP/1.1" 200 -
+[ 2023-08-06 18:59:36,418 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,424 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,425 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,434 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,439 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,444 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,446 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,465 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,493 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,499 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:36,502 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,509 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,512 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,516 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,521 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,525 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,529 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,532 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:36,536 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:36] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,091 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "GET /register/ HTTP/1.1" 200 -
+[ 2023-08-06 18:59:38,923 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,936 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,939 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,944 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,947 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,950 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:38,954 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:38] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,652 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,654 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,655 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,660 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,662 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:39,665 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,874 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,880 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,888 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,890 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,894 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:39,912 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:39] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:44,825 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:44] "GET /login/ HTTP/1.1" 200 -
+[ 2023-08-06 18:59:45,066 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,141 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/animsition/css/animsition.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,144 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/select2/select2.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,145 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,146 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,147 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/animate/animate.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,156 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,159 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,162 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/css/util.css HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,396 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/countdowntime/countdowntime.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,398 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/bootstrap/js/popper.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,409 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+[ 2023-08-06 18:59:45,409 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,415 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,421 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/animsition/js/animsition.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,425 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,428 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/select2/select2.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,431 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/daterangepicker/moment.min.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:45,435 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:45] "[33mGET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1[0m" 404 -
+[ 2023-08-06 18:59:52,381 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:52] "[32mPOST /login HTTP/1.1[0m" 308 -
+[ 2023-08-06 18:59:52,401 ] 1458 app - ERROR - Exception on /login/ [POST]
+Traceback (most recent call last):
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\sqlalchemy\util\_collections.py", line 1008, in __call__
+    return self.registry[key]
+KeyError: <greenlet.greenlet object at 0x1102FB98 (otid=0x11239940) current active started main>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 58, in login
+    data = User.query.filter_by(username=u, password=p).first()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask_sqlalchemy\__init__.py", line 552, in __get__
+    return type.query_class(mapper, session=self.sa.session())
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\sqlalchemy\orm\scoping.py", line 47, in __call__
+    sess = self.registry()
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\sqlalchemy\util\_collections.py", line 1010, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\sqlalchemy\orm\session.py", line 4279, in __call__
+    return self.class_(**local_kw)
+  File "e:\ML_OOP\mlproject_airbnb\mlproject_airbnb\.venv\lib\site-packages\flask_sqlalchemy\__init__.py", line 175, in __init__
+    track_modifications = app.config['SQLALCHEMY_TRACK_MODIFICATIONS']
+KeyError: 'SQLALCHEMY_TRACK_MODIFICATIONS'
+[ 2023-08-06 18:59:52,409 ] 225 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2023 18:59:52] "[35m[1mPOST /login/ HTTP/1.1[0m" 500 -
