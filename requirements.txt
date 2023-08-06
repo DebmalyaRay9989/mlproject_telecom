@@ -8,4 +8,5 @@ dill
 flask
 klib
 scipy
+gunicorn
 -e .
