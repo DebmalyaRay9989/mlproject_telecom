@@ -1,4 +1,5 @@
-from flask import Flask, request, render_template
+
+from flask import (Flask, render_template, request, redirect, session)
 import numpy as np
 import pandas as pd
 
@@ -6,15 +7,29 @@ from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
-
 app = application
-
+app.secret_key = 'ItShouldBeAnythingButSecret'  
 # Route for a home page
 
+user = {"username": "admin", "password": "admin"}
+
+@app.route('/login', methods = ['POST', 'GET'])
+def login():
+    if(request.method == 'POST'):
+        username = request.form.get('username')
+        password = request.form.get('password')     
+        if username == user['username'] and password == user['password']:
+            
+            session['user'] = username
+            return redirect('/predictdata')
+
+        return "<h1>Wrong username or password</h1>"    #if the username or password does not matches 
+
+    return render_template("login.html")
 
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('login.html')
 
 
 @app.route('/predictdata', methods=['GET', 'POST'])
@@ -45,6 +60,11 @@ def predict_datapoint():
         #return render_template('home.html', results = results[0])
         return render_template('predict.html', results = float(results[0]))
 
+
+@app.route('/logout')
+def logout():
+    session.pop('user')         
+    return redirect('/login')
 
 if __name__ == "__main__":
     app.run(host = "0.0.0.0", port = 9090)
