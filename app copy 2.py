@@ -1,8 +1,6 @@
 
-from flask import Flask,render_template,flash, redirect,url_for,session,logging,request
-from flask_sqlalchemy import SQLAlchemy
-
-import numpy as np  
+from flask import (Flask, render_template, request, redirect, session)
+import numpy as np
 import pandas as pd
 
 from sklearn.preprocessing import StandardScaler
@@ -10,52 +8,32 @@ from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 application = Flask(__name__)
 app = application
+app.secret_key = 'ItShouldBeAnythingButSecret'
+# Route for a home page
 
-#configuring the database
-app.config['SQLALCHEMY_DATABASE_URI']= 'sqlite:///database.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
-
-db = SQLAlchemy(app)
-
-class user(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80))
-    email = db.Column(db.String(120))
-    password = db.Column(db.String(80))
-
-
-@app.route('/')
-def index():
-    return render_template('index.html')
+user = {"username": "admin", "password": "admin"}
 
 @app.route('/login', methods = ['POST', 'GET'])
 def login():
-    if request.method == "POST":
-        uname = request.form["uname"]
-        passw = request.form["passw"]
-
-        login = user.query.filter_by(username=uname, password=passw).first()
-        if login is not None:
+    if(request.method == 'POST'):
+        username = request.form.get('username')
+        password = request.form.get('password')     
+        if username == user['username'] and password == user['password']:
+            
+            session['user'] = username
             return redirect('/predictdata')
+
+        return "<h1>Wrong username or password</h1>"    #if the username or password does not matches 
+
     return render_template("login.html")
 
-
-@app.route('/register', methods=["GET", "POST"])
-def register():
-    if request.method == "POST":
-        uname = request.form['uname']
-        mail = request.form['mail']
-        passw = request.form['passw']
-
-        register = user(username = uname, email = mail, password = passw)
-        db.session.add(register)
-        db.session.commit()
-
-        return redirect('/login')
-    return render_template("register.html")
+@app.route('/')
+def index():
+    return render_template('login.html')
 
 
 @app.route('/predictdata', methods=['GET', 'POST'])
+
 def predict_datapoint():
     if request.method == 'GET':
         return render_template('home.html')
@@ -90,7 +68,6 @@ def logout():
     return redirect('/login')
 
 if __name__ == "__main__":
-    db.create_all()
     app.run(host = "0.0.0.0", port = 9090)
     # app.run(debug=True)
 
