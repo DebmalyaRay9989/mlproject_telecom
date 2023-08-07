@@ -9,4 +9,5 @@ flask
 flask_sqlalchemy
 klib
 scipy
+gunicorn
 -e .
