@@ -306,21 +306,13 @@
               <div class="formbg">
                 <div class="formbg-inner padding-horizontal--48">
                   <!--<form id="stripe-login"> -->
-                  <form align="center" action="/login" method="POST" id="stripe-login">
-                    <div class="field padding-bottom--24">
-                        Enter Username: <input type="text" name="uname" placeholder="username"/>
-                    </div>
-                    <div class="field padding-bottom--24">
-                        Enter Password: <input type="password" name='passw' placeholder="password"/>
-                    </div>
-                    <br>
-                    <div class="field padding-bottom--24">
-                        <input type="submit" value="submit" class="submit">
-                    </div>
+                    <ul>
+                        <li class="field padding-bottom--24"><a href="/login" class="btn form-control btn-success">Login</a></li>
+                        <li class="field padding-bottom--24"><a href="/register" class="btn form-control btn-primary">Register</a></li>
+                    </ul>
                   <!--  <div class="field">
                         <p align="center"> PRE-PAID OFFER PRICE (PREDICTED) Rs : {{results}}</p> 
                     </div> -->
-                  </form>
                 </div>
               </div>
             </div>
